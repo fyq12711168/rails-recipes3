@@ -55,7 +55,7 @@
 
       <div class="form-group">
         <%= ff.label :description %>
-        <%= f.cktext_area :description, ckeditor: { language: 'zh-CN'} %>
+        <%= ff.text_area :description, ckeditor: { language: 'zh-CN'} %>
       </div>
     </fieldset>
     <%= ff.remove_nested_fields_link "移除这个票种", :class => "btn btn-danger" %>
